@@ -1,11 +1,12 @@
 <ion-view view-title="Dashboard">
-  <ion-content>
+  <ion-content ng-controller="EventCtrl">
     <div class="card">
-      <div class="item item-divider">
-        I'm a Header in a Card!
+      <div class="item item-divider" ng-repeat="event in events">
+        {{event.title}}
       </div>
-      <div class="item item-text-wrap">
-        This is a basic Card with some text.
+      <div class="item item-text-wrap" ng-repeat="event in events">
+        {{event.date}}
+        {{event.location}}
       </div>
     </div>
   </ion-content>
