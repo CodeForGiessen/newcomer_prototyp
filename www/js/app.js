@@ -23,7 +23,7 @@ angular.module('newcomer', ['ionic','ionic.service.core', 'newcomer.controllers'
     url: '/app',
     abstract: true,
     templateUrl: 'templates/menu.html',
-    controller: 'AppCtrl'
+    //controller: 'AppCtrl'
   })
 
   .state('app.dashboard', {

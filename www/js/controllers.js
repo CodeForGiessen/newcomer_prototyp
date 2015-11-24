@@ -1,6 +1,6 @@
 angular.module('newcomer.controllers', [])
 
-.controller('AppCtrl', function($scope, $ionicModal, $timeout) {
+//.controller('AppCtrl', function() { });
 
  .controller('EventCtrl', function($scope) {
    $scope.events = [
@@ -11,9 +11,9 @@ angular.module('newcomer.controllers', [])
      { title: 'Spieleabend', date: '30.08.2015', location: 'Gemeinschaftsraum',  id: 5 },
      { title: 'Stadt Gießen kennen lernen', date: '10.07.2015', location: 'Haupteingang Camp',  id: 6 }
    ];
- });
+ })
 
- .controller ('MapCtrl', function($scope, $ionicLoading){
+ .controller ('MapCtrl', function($scope){
    google.maps.event.addDomListener(window, 'load', function() {
         var myLatlng = new google.maps.LatLng(50.592205, 8.732367);
 
@@ -37,4 +37,4 @@ angular.module('newcomer.controllers', [])
         $scope.map = map;
  })
  });
-});
+

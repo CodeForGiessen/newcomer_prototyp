@@ -1,11 +1,12 @@
 <ion-view view-title="Dashboard">
   <ion-content ng-controller="EventCtrl">
-    <div class="card">
-      <div class="item item-divider" ng-repeat="event in events">
+    <div class="card" ng-repeat="event in events">
+      <div class="item item-divider">
         {{event.title}}
       </div>
-      <div class="item item-text-wrap" ng-repeat="event in events">
+      <div class="item item-text-wrap">
         {{event.date}}
+        <p></p>
         {{event.location}}
       </div>
     </div>
