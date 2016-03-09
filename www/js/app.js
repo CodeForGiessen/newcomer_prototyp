@@ -34,7 +34,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
         views: {
             'menuContent': {
                 templateUrl: 'templates/dashboard.html',
-                controller: 'dashboardCtrl'
+                controller: 'DashboardCtrl'
             }
         }
     })
@@ -44,7 +44,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
         views: {
             'menuContent': {
                 templateUrl: 'templates/guide.html',
-                controller: 'dashboardCtrl'
+                controller: 'GuideCtrl'
             }
         }
     })
@@ -54,7 +54,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
         views: {
             'menuContent': {
                 templateUrl: 'templates/map.html',
-                controller: 'dashboardCtrl'
+                controller: 'MapCtrl'
             }
         }
     })
@@ -64,7 +64,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
         views: {
             'menuContent': {
                 templateUrl: 'templates/authorities.html',
-                controller: 'dashboardCtrl'
+                controller: 'DashboardCtrl'
             }
         }
     })

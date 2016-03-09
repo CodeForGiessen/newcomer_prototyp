@@ -1,5 +1,5 @@
 'use-strict'
-app.controller('dashboardCtrl', function ($scope, $stateParams, ionicMaterialMotion, ionicMaterialInk) {
+app.controller('DashboardCtrl', function ($scope, $stateParams, ionicMaterialMotion, ionicMaterialInk) {
 
   $scope.events = [
     { title: 'Ausflug zum Schiffenberg', date: '23.11.2015', location: 'Haupteingang Camp', id: 1 },
