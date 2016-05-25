@@ -1,7 +1,30 @@
 {
-  "name": "HelloIonic",
-  "private": "true",
+  "name": "RefugeeApp",
+  "version": "0.1.0",
+  "dependencies": {
+    "ionic": "v1.3.0",
+    "ngCordova": "v0.1.26-alpha",
+    "ionic-material": "0.4.2",
+    "robotodraft": "1.1.0",
+    "leaflet": "0.7.7",
+    "angular-leaflet-directive": "^0.10.0",
+    "angular-translate": "^2.11.0",
+    "angular-cookies": "1.5.3",
+    "angular-translate-storage-cookie": "^2.11.0",
+    "angular-translate-storage-local": "^2.11.0",
+    "leaflet.markercluster": "^0.5.0",
+    "angular-toastr": "^1.7.0",
+    "flag-icon-css": "^2.2.0"
+  },
   "devDependencies": {
-    "ionic": "driftyco/ionic-bower#1.2.4"
+    "angular-mocks": "1.5.3",
+    "angular-scenario": "1.5.3"
+  },
+  "license": "MIT",
+  "resolutions": {
+    "ionic": "v1.3.0",
+    "angular": "1.5.3",
+    "angular-sanitize": "1.5.3",
+    "angular-animate": "1.5.3"
   }
 }
